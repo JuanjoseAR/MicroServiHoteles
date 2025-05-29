@@ -4,7 +4,7 @@ import com.example.MicroserviVehiculos.service.FacturaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/facturas")
 @RequiredArgsConstructor
